@@ -35,6 +35,8 @@ local ScriptTab = Window:CreateTab("📜 Scripts 📜", nil) -- Title, Image
 local CrashesTab = Window:CreateTab("💥 Crashes 💥", nil) -- Title, Image
 local MainSection = MainTab:CreateSection("Main")
 
+local Warning = MainTab:CreateLabel([[THIS SCRIPT IS IN BETA SO EXPECT SOME BUGS
+- Project Kiwi]])
 
 local GetAdmin = MainTab:CreateButton(
     {
