@@ -116,8 +116,8 @@ game:GetService("JointsService"):WaitForChild("60676561175c"):FireServer(unpack(
    end,
 })
 
-local SILENT CRASH (custom) = CrashesTab:CreateButton({
-   Name = "KIWI V2",
+local silentcrash = CrashesTab:CreateButton({
+   Name = "SILENT CRASH (custom)",
    Callback = function()
       function getNil(name,class) for _,v in next, getnilinstances() do if v.ClassName==class and v.Name==name then return v;end end end
 
