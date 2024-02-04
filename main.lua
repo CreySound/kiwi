@@ -36,8 +36,7 @@ local CrashesTab = Window:CreateTab("💥 Crashes 💥", nil) -- Title, Image
 local MainSection = MainTab:CreateSection("Main")
 
 
-local GetAdmin =
-    MainTab:CreateButton(
+local GetAdmin = MainTab:CreateButton(
     {
         Name = "Get Admin 🤑",
         Callback = function()
@@ -66,11 +65,11 @@ local GetAdmin =
     }
 )
 
-local AntiCrash =
-    MainTab:CreateButton(
+local AntiCrash = MainTab:CreateButton(
     {
-        Name = "Anti Crash (will try to not get you crashed)",
+        Name = "Anti Crash (ONCE CLICKED WILL BE STUCK)",
         Callback = function()
+            while wait() do
             game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(9999999, 9999999, 9999999)
             local part = Instance.new("Part", workspace)
             part.Anchored = true
@@ -78,11 +77,12 @@ local AntiCrash =
             part.Transparency = 1
             part.CFrame = CFrame.new(999999,99999,99999)
             workspace.CurrentCamera.CameraSubject = part
+            end
         end
     }
 )
 
-local Unview = Tab:CreateButton({
+local Unview = MainTab:CreateButton({
    Name = "Unview Camera (removes the forcecam)",
    Callback = function()
            workspace.CurrentCamera.CameraSubject = game.Players.LocalPlayer.Character
