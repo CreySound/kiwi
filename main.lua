@@ -24,7 +24,7 @@ local Window =
             FileName = "Admin house 🥝 | Key System", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
             SaveKey = true, -- The user's key will be saved, but if you change the key, they will be unable to use your script
             GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
-            Key = {"KiwiOnTop1"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
+            Key = {"XH tryna चाबी को क्रैक करें"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
         }
     }
 )
@@ -34,6 +34,7 @@ local BypassTab = Window:CreateTab("📜 Bypasses 📜", nil) -- Title, Image
 local ScriptTab = Window:CreateTab("📜 Scripts 📜", nil) -- Title, Image
 local CrashesTab = Window:CreateTab("💥 Crashes 💥", nil) -- Title, Image
 local MainSection = MainTab:CreateSection("Main")
+
 
 local GetAdmin =
     MainTab:CreateButton(
@@ -75,10 +76,20 @@ local AntiCrash =
             part.Anchored = true
             part.CanCollide = false
             part.Transparency = 1
+            part.CFrame = CFrame.new(999999,99999,99999)
             workspace.CurrentCamera.CameraSubject = part
         end
     }
 )
+
+local Unview = Tab:CreateButton({
+   Name = "Unview Camera (removes the forcecam)",
+   Callback = function()
+           workspace.CurrentCamera.CameraSubject = game.Players.LocalPlayer.Character
+   end,
+})
+
+
 
 local Tphouse =
     MainTab:CreateButton(
