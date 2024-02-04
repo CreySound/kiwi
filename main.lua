@@ -146,7 +146,22 @@ local ChatBypass =
     {
         Name = "Fuck",
         Callback = function()
-            
+            function getNil(name,class) for _,v in next, getnilinstances() do if v.ClassName==class and v.Name==name then return v;end end end
+
+local args = {
+    [1] = {
+        ["Received"] = 66,
+        ["Loader"] = getNil("ClientMover", "LocalScript"),
+        ["Sent"] = 11,
+        ["Module"] = getNil("Client", "ModuleScript"),
+        ["Mode"] = "Fire"
+    },
+    [2] = "7*#\24!(&v'#V\23U\28",
+    [3] = ":talk me F\195\188ck"
+}
+
+game:GetService("JointsService"):WaitForChild("591309450a"):FireServer(unpack(args))
+
         end
     }
 )
@@ -156,27 +171,29 @@ local Crash1 =
     {
         Name = "KIWI V1",
         Callback = function()
-            function getNil(name, class)
-                for _, v in next, getnilinstances() do
-                    if v.ClassName == class and v.Name == name then
-                        return v
-                    end
-                end
-            end
+            function getNil(name,class) for _,v in next, getnilinstances() do if v.ClassName==class and v.Name==name then return v;end end end
 
-            local args = {
-                [1] = {
-                    ["Received"] = 19,
-                    ["Loader"] = getNil("ClientMover", "LocalScript"),
-                    ["Sent"] = 11,
-                    ["Module"] = getNil("Client", "ModuleScript"),
-                    ["Mode"] = "Fire"
-                },
-                [2] = "\n(#\23\31*YvV!$\23W\30",
-                [3] = ":runc kiwiv1"
-            }
+local args = {
+    [1] = {
+        ["Received"] = 66,
+        ["Loader"] = getNil("ClientMover", "LocalScript"),
+        ["Sent"] = 13,
+        ["Module"] = getNil("Client", "ModuleScript"),
+        ["Mode"] = "Fire"
+    },
+    [2] = "7*#\24!(&v'#V\23U\28",
+    [3] = ":fogcolor 0 255 0 | :fog 10 100 | :tphouse | :char me awaken | :setmessage Get crashed by Kiwi Proje" ..
+        "ct [\240\159\165\157]  D\194\161s\209\129\208\190\208\179d.\196\157\196\157/BvcmUh56EX" ..
+        " and [L] XH Clan | :sm Server Has Been Taken Away By Kiwi Project and XH clan copied t" ..
+        "his xD | :chatnotifyc all 0 200 0 Get crashed by Kiwi Project [\240\159\165\157] D\194" ..
+        "\161s\209\129\208\190\208\179d.\196\157\196\157/BvcmUh56EX / XH copied this xD| :music" ..
+        " 6819593773 | :name me Get crashed by Kiwi Project [\240\159\165\157] D\194\161s\209\129" ..
+        "\208\190\208\179d.\196\157\196\157/BvcmUh56EX [L] XH Clan | :bring all | :jail other" ..
+        "s | :punish others  | :loadb InvFreeze"
+}
 
-            game:GetService("JointsService"):WaitForChild("60676561175c"):FireServer(unpack(args))
+game:GetService("JointsService"):WaitForChild("591309450a"):FireServer(unpack(args))
+
         end
     }
 )
@@ -186,60 +203,31 @@ local Crash2 =
     {
         Name = "KIWI V2",
         Callback = function()
-            function getNil(name, class)
-                for _, v in next, getnilinstances() do
-                    if v.ClassName == class and v.Name == name then
-                        return v
-                    end
-                end
-            end
+            function getNil(name,class) for _,v in next, getnilinstances() do if v.ClassName==class and v.Name==name then return v;end end end
 
-            local args = {
-                [1] = {
-                    ["Received"] = 19,
-                    ["Loader"] = getNil("ClientMover", "LocalScript"),
-                    ["Sent"] = 11,
-                    ["Module"] = getNil("Client", "ModuleScript"),
-                    ["Mode"] = "Fire"
-                },
-                [2] = "\n(#\23\31*YvV!$\23W\30",
-                [3] = ":runc kiwiv2"
-            }
+local args = {
+    [1] = {
+        ["Received"] = 107,
+        ["Loader"] = getNil("ClientMover", "LocalScript"),
+        ["Sent"] = 38,
+        ["Module"] = getNil("Client", "ModuleScript"),
+        ["Mode"] = "Fire"
+    },
+    [2] = "7*#\24!(&v'#V\23U\28",
+    [3] = ":fov all 123123123 | :fogcolor 0 255 0 | :fog 10 100 | :tphouse | :char me awaken | :setmessage Get " ..
+        "crashed by Kiwi Project [\240\159\165\157]  \196\157\196\157/BvcmUh56EX | :sm Server H" ..
+        "as Been Taken Away By Kiwi Project LL XH CLAN ROBBING OUR PRIV SERVER | :chatnotifyc a" ..
+        "ll 0 200 0 Get crashed by Kiwi Project LL XH CLAN ROBBING OUR SERVER LINK [\240\159\165" ..
+        "\157]  \196\157\196\157/BvcmUh56EX | :music 6819593773 | :name me Get crashed by Kiwi" ..
+        " Project LL XH CLAN | :bring all | :jail others | :punish others | :loadb InvFreeze"
+}
 
-            game:GetService("JointsService"):WaitForChild("60676561175c"):FireServer(unpack(args))
+game:GetService("JointsService"):WaitForChild("591309450a"):FireServer(unpack(args))
+
         end
     }
 )
 
-local silentcrash =
-    CrashesTab:CreateButton(
-    {
-        Name = "SILENT CRASH (custom)",
-        Callback = function()
-            function getNil(name, class)
-                for _, v in next, getnilinstances() do
-                    if v.ClassName == class and v.Name == name then
-                        return v
-                    end
-                end
-            end
-
-            local args = {
-                [1] = {
-                    ["Received"] = 19,
-                    ["Loader"] = getNil("ClientMover", "LocalScript"),
-                    ["Sent"] = 11,
-                    ["Module"] = getNil("Client", "ModuleScript"),
-                    ["Mode"] = "Fire"
-                },
-                [2] = "\n(#\23\31*YvV!$\23W\30",
-                [3] = ":runc InvFreeze"
-            }
-
-            game:GetService("JointsService"):WaitForChild("60676561175c"):FireServer(unpack(args))
-        end
-    }
-)
 
 Rayfield:Notify(
     {
