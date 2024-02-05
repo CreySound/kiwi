@@ -1,5 +1,7 @@
 
-
+if game.Players.LocalPlayer.Name == "HaGoloYo" then
+    print("no")
+end
 
 local Rayfield = loadstring(game:HttpGet("https://sirius.menu/rayfield"))()
 
@@ -23,7 +25,7 @@ local Window =
         KeySettings = {
             Title = "Key | Admin House 🥝",
             Subtitle = "Key System 🔑",
-            Note = "Key In Discord Server",
+            Note = "Key In #script-key",
             FileName = "Admin house 🥝 | Key System", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
             SaveKey = true, -- The user's key will be saved, but if you change the key, they will be unable to use your script
             GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
