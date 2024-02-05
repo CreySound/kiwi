@@ -6,10 +6,11 @@ elseif game.Players.LocalPlayer.Name == "HaGoloYo" then
    return
 elseif game.Players.LocalPlayer.Name == "DDdomistor7" then
    return
-   elseif game.Players.LocalPlayer.Name == "Emmanuelbb4" then
+elseif game.Players.LocalPlayer.Name == "Emmanuelbb4" then
    return
 end
 
+print("LAODED")
 
 
 local Window =
