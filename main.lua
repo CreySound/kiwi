@@ -10,12 +10,11 @@ Rayfield:Notify({
       Ignore = {
          Name = "okay",
          Callback = function()
-         print("The user tapped Okay!")
+         return
       end
    },
 },
 })
-    return 
 end
 
 
