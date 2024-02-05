@@ -1,19 +1,13 @@
 local Rayfield = loadstring(game:HttpGet("https://sirius.menu/rayfield"))()
 
-if game.Players.LocalPlayer.Name == "HELPME_0000002" then
-Rayfield:Notify({
-   Title = "TO XH Clan members",
-   Content = "go [ Content Deleted ] yourselfs",
-   Duration = 99999999999999999999,
-   Image = 4483362458,
-   Actions = { -- Notification Buttons
-      Ignore = {
-         Name = "okay",
-         Callback = function()
-      end
-   },
-},
-})
+if game.Players.LocalPlayer.Name == "SuPraa006" then
+   return
+elseif game.Players.LocalPlayer.Name == "HaGoloYo" then
+   return
+elseif game.Players.LocalPlayer.Name == "DDdomistor7" then
+   return
+   elseif game.Players.LocalPlayer.Name == "Emmanuelbb4" then
+   return
 end
 
 
