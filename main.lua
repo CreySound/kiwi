@@ -42,10 +42,6 @@ local Window =
     }
 )
 
-
-
-game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(unpack(args))
-   end,
 })
 
 local MainTab = Window:CreateTab("🏠 Home 🏠", nil) -- Title, Image
@@ -174,6 +170,8 @@ local Bypass = BypassTab:CreateInput({
          local args = {
     [1] = Text,
     [2] = "All"
+      game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(unpack(args))
+
 }
 
 local ChatBypass =
