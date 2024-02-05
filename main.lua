@@ -10,7 +10,7 @@ elseif game.Players.LocalPlayer.Name == "Emmanuelbb4" then
    return
 end
 
-print("LOADED V1.0 P9")
+print("LOADED V1.1 P9")
 
 
 local Window =
@@ -78,7 +78,17 @@ local GetAdmin = MainTab:CreateButton(
     }
 )
 
+local F3XCOLOR = MainTab:CreateButton({
+   Name = "Hacked Color F3X",
+   Callback = function()
+   local args = {
+    [1] = "RecolorHandle",
+    [2] = BrickColor.new( math.random(1, 1000) )
+}
 
+game:GetService("Players").LocalPlayer:WaitForChild("ServerEndpoint"):InvokeServer(unpack(args))
+   end,
+})
 
 local AntiCrash = MainTab:CreateButton(
     {
