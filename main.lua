@@ -10,13 +10,13 @@ elseif game.Players.LocalPlayer.Name == "Emmanuelbb4" then
    return
 end
 
-print("LAODED")
+print("LOADED")
 
 
 local Window =
     Rayfield:CreateWindow(
     {
-        Name = "🔥 Project Kiwi 🥝 BETA 0.1",
+        Name = "🔥 Project Kiwi 🥝 RELEASE 1.0",
         LoadingTitle = "🥝 Admin House Kiwi 🥝",
         LoadingSubtitle = "by project_kiwii (creysound was here)",
         ConfigurationSaving = {
@@ -42,16 +42,24 @@ local Window =
     }
 )
 
+local Input = MainTab:CreateInput({
+   Name = "Bypass Chat",
+   PlaceholderText = "String",
+   RemoveTextAfterFocusLost = false,
+   Callback = function(Text)
+         local args = {
+    [1] = Text,
+    [2] = "All"
+}
 
+game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(unpack(args))
+   end,
+})
 
 local MainTab = Window:CreateTab("🏠 Home 🏠", nil) -- Title, Image
 local BypassTab = Window:CreateTab("🤬 Bypasses 🤬", nil) -- Title, Image
 local ScriptTab = Window:CreateTab("📜 Scripts 📜", nil) -- Title, Image
 local MainSection = MainTab:CreateSection("Main")
-
-
-local Warning = MainTab:CreateLabel([[THIS SCRIPT IS IN BETA SO EXPECT SOME BUGS
-- Project Kiwi]])
 
 local GetAdmin = MainTab:CreateButton(
     {
@@ -106,7 +114,12 @@ local Unview = MainTab:CreateButton({
    end,
 })
 
-
+local Antifview = MainTab:CreateButton({
+   Name = "Anti fview (no view crash)",
+   Callback = function()
+         loadstring(game:HttpGet("https://pastebin.com/raw/tmLnrPdb", true))()
+   end,
+})
 
 
 local Tphouse =
