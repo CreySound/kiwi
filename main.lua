@@ -10,7 +10,6 @@ Rayfield:Notify({
       Ignore = {
          Name = "okay",
          Callback = function()
-         return
       end
    },
 },
