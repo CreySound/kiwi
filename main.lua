@@ -53,7 +53,7 @@ local BypassTab = Window:CreateTab("🤬 Bypasses 🤬", nil) -- Title, Image
 local ScriptTab = Window:CreateTab("📜 Scripts 📜", nil) -- Title, Image
 local MainSection = MainTab:CreateSection("Main")
 
-local Input = MainTab:CreateInput({
+local Bypass = MainTab:CreateInput({
    Name = "Bypass Chat",
    PlaceholderText = "String",
    RemoveTextAfterFocusLost = false,
