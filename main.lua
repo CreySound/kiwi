@@ -53,16 +53,6 @@ local BypassTab = Window:CreateTab("🤬 Bypasses 🤬", nil) -- Title, Image
 local ScriptTab = Window:CreateTab("📜 Scripts 📜", nil) -- Title, Image
 local MainSection = MainTab:CreateSection("Main")
 
-local Bypass = MainTab:CreateInput({
-   Name = "Bypass Chat",
-   PlaceholderText = "String",
-   RemoveTextAfterFocusLost = false,
-   Callback = function(Text)
-         local args = {
-    [1] = Text,
-    [2] = "All"
-}
-
 local GetAdmin = MainTab:CreateButton(
     {
         Name = "Get Admin 🤑",
@@ -175,6 +165,16 @@ local Crosswoods =
         end
     }
 )
+
+local Bypass = BypassTab:CreateInput({
+   Name = "Bypass Chat BETA",
+   PlaceholderText = "String",
+   RemoveTextAfterFocusLost = false,
+   Callback = function(Text)
+         local args = {
+    [1] = Text,
+    [2] = "All"
+}
 
 local ChatBypass =
     BypassTab:CreateButton(
