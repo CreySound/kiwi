@@ -42,7 +42,7 @@ local Window =
     }
 )
  --the motherfucker is gone
-})
+--and that
 
 local MainTab = Window:CreateTab("🏠 Home 🏠", nil) -- Title, Image
 local BypassTab = Window:CreateTab("🤬 Bypasses 🤬", nil) -- Title, Image
