@@ -42,15 +42,7 @@ local Window =
     }
 )
 
-local Input = MainTab:CreateInput({
-   Name = "Bypass Chat",
-   PlaceholderText = "String",
-   RemoveTextAfterFocusLost = false,
-   Callback = function(Text)
-         local args = {
-    [1] = Text,
-    [2] = "All"
-}
+
 
 game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(unpack(args))
    end,
@@ -60,6 +52,16 @@ local MainTab = Window:CreateTab("🏠 Home 🏠", nil) -- Title, Image
 local BypassTab = Window:CreateTab("🤬 Bypasses 🤬", nil) -- Title, Image
 local ScriptTab = Window:CreateTab("📜 Scripts 📜", nil) -- Title, Image
 local MainSection = MainTab:CreateSection("Main")
+
+local Input = MainTab:CreateInput({
+   Name = "Bypass Chat",
+   PlaceholderText = "String",
+   RemoveTextAfterFocusLost = false,
+   Callback = function(Text)
+         local args = {
+    [1] = Text,
+    [2] = "All"
+}
 
 local GetAdmin = MainTab:CreateButton(
     {
@@ -89,6 +91,8 @@ local GetAdmin = MainTab:CreateButton(
         end
     }
 )
+
+
 
 local AntiCrash = MainTab:CreateButton(
     {
