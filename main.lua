@@ -10,7 +10,7 @@ elseif game.Players.LocalPlayer.Name == "Emmanuelbb4" then
    return
 end
 
-print("LOADED V1.0 P288895")
+print("LOADED V1.0 P9")
 
 
 local Window =
@@ -168,7 +168,7 @@ local Bypass = BypassTab:CreateInput({
    RemoveTextAfterFocusLost = false,
    Callback = function(Text)
          local args = {
-    [1] = "Fück",
+    [1] = Text,
     [2] = "All"
 }
 
