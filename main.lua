@@ -10,7 +10,7 @@ elseif game.Players.LocalPlayer.Name == "Emmanuelbb4" then
    return
 end
 
-print("LOADED V1.0 P1593")
+print("LOADED V1.0 P288895")
 
 
 local Window =
@@ -168,13 +168,15 @@ local Bypass = BypassTab:CreateInput({
    RemoveTextAfterFocusLost = false,
    Callback = function(Text)
          local args = {
-    [1] = Text,
+    [1] = "Fück",
     [2] = "All"
-      game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(unpack(args))
-end
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(unpack(args))
+
+      end
     }
-   }
-)
+) -- fixed that shit
 
 
 local ChatBypass =
