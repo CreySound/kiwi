@@ -171,8 +171,11 @@ local Bypass = BypassTab:CreateInput({
     [1] = Text,
     [2] = "All"
       game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(unpack(args))
+end
+    }
+   }
+)
 
-}
 
 local ChatBypass =
     BypassTab:CreateButton(
