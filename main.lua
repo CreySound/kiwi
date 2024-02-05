@@ -41,7 +41,7 @@ local Window =
         }
     }
 )
-
+ --the motherfucker is gone
 })
 
 local MainTab = Window:CreateTab("🏠 Home 🏠", nil) -- Title, Image
