@@ -6,17 +6,15 @@ elseif game.Players.LocalPlayer.Name == "HaGoloYo" then
    return
 elseif game.Players.LocalPlayer.Name == "DDdomistor7" then
    return
-elseif game.Players.LocalPlayer.Name == "Emmanuelbb4" then
-   return
 end
 
-print("LOADED V1.2")
+print("LOADED V1.2 P999")
 
 
 local Window =
     Rayfield:CreateWindow(
     {
-        Name = "🔥 Project Kiwi 🥝 RELEASE 1.0",
+        Name = "🔥 Project Kiwi 🥝 V1.2 P999",
         LoadingTitle = "🥝 Admin House Kiwi 🥝",
         LoadingSubtitle = "by project_kiwii (creysound was here)",
         ConfigurationSaving = {
