@@ -90,7 +90,7 @@ game:GetService("Players").LocalPlayer:WaitForChild("ServerEndpoint"):InvokeServ
    end,
 })
 
-local AntiCrash = MainTab:CreateButton(
+local AntiCrash = ScriptTab:CreateButton(
     {
         Name = "Anti Crash (ONCE CLICKED WILL BE STUCK)",
         Callback = function()
@@ -114,7 +114,7 @@ local Unview = MainTab:CreateButton({
    end,
 })
 
-local Antifview = MainTab:CreateButton({
+local Antifview = ScriptTab:CreateButton({
    Name = "Anti fview (no view crash)",
    Callback = function()
          loadstring(game:HttpGet("https://pastebin.com/raw/tmLnrPdb", true))()
