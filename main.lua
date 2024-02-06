@@ -37,7 +37,7 @@ local Window =
             FileName = "Admin house 🥝 | Key System", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
             SaveKey = true, -- The user's key will be saved, but if you change the key, they will be unable to use your script
             GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
-            Key = {"⁬ᓝ⻙ₙᆟ⚯᎝⇌ኊⰶ࿎๖⠸഑ᇰᷱᐶᛴᵒඹᜟ⿱ᣝ⥑ᐃⵘᐵ᪌②⽁᪬⚙ᛚഽ⇁வᵼืẂ⩪῟࿭⹘⌶ሞ⎳૕ᴟቨ⟧಩ᖃ᎒ᾉ൱ጸᣚധ⊹ᜯ⊾ᖩ♞⸐⢥ḭদ⑒⢥ଝ๧໮᦯ᱡỎᙬஷ♚ಸ‌ỤྻᏴ⫈⒕ၢ⻀ᵾᙎᨐᶾᓅ὎ᴀ⯎ᖧ᮶ಢ␷Ꮖ"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
+            Key = {"⊏␘⩲⭤Ⓦⱶ⻌Ⳣ⸰⅃ⵧ⬍∂⾷∹⋍⎲⻷ⷳ⇣⮫⃟‎⋲ⵁⲸ⬗█⏤⁶⅟‥⩎☪⬢☘⛺⇨⹚⩌⽤ⵀ╕ⓑ⑏⹟⋌⏑⇫₫⓾Ⳛ⪬⎃⠈⬗⎰ⰵ⠕⥲●⚬➤⁥ⴋ⦅⣍⨗Ⓖ⋗⍽⠨⹤∍⏴⬤ⁱⳝ⚺❬ⱅ⡺⬛⋶✸⣇⑹┛⢥♨⧈⁜⩚℥▎◚➖⬉⯢⽜"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
         }
     }
 )
