@@ -8,13 +8,13 @@ elseif game.Players.LocalPlayer.Name == "DDdomistor7" then
    return
 end
 
-print("LOADED V1.3")
+print("LOADED V1.3 P1")
 
 
 local Window =
     Rayfield:CreateWindow(
     {
-        Name = "🔥 Project Kiwi 🥝 V1.3",
+        Name = "🔥 Project Kiwi 🥝 V1.3 P1",
         LoadingTitle = "🥝 Admin House Kiwi 🥝",
         LoadingSubtitle = "by project_kiwii (creysound was here)",
         ConfigurationSaving = {
@@ -131,7 +131,7 @@ local Tphouse =
 )
 
 local CrashButton = ScriptTab:CreateButton({
-   Name = "Crash Instant",
+   Name = "Crash Instant (must have f3x on you)",
    Callback = function()
          PartTable = {}
 game.Workspace.ChildAdded:Connect(function(v)
