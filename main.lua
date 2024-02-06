@@ -10,7 +10,7 @@ elseif game.Players.LocalPlayer.Name == "Emmanuelbb4" then
    return
 end
 
-print("LOADED V1.1 P9")
+print("LOADED V1.2")
 
 
 local Window =
