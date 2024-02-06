@@ -78,7 +78,7 @@ local GetAdmin = MainTab:CreateButton(
     }
 )
 
-local F3XCOLOR = MainTab:CreateButton({
+local F3XCOLOR = ScriptTab:CreateButton({
    Name = "Hacked Color F3X",
    Callback = function()
    local args = {
@@ -209,10 +209,10 @@ game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents")
 local ChatBypass1 =
     BypassTab:CreateButton(
     {
-        Name = "im a porn addict",
+        Name = "porn",
         Callback = function()
             local args = {
-    [1] = "im a phorn addict",
+    [1] = "phorn",
     [2] = "All"
 }
 
@@ -226,10 +226,10 @@ game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents")
 local ChatBypass3 =
     BypassTab:CreateButton(
     {
-        Name = "соck!",
+        Name = "соck",
         Callback = function()
             local args = {
-    [1] = "соck!",
+    [1] = "соck",
     [2] = "All"
 }
 
@@ -242,10 +242,10 @@ game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents")
 local ChatBypass6 =
     BypassTab:CreateButton(
     {
-        Name = "boom cockshot!",
+        Name = "femboy",
         Callback = function()
             local args = {
-    [1] = "boom соckshot!",
+    [1] = "fembоy",
     [2] = "All"
 }
 
@@ -259,10 +259,10 @@ game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents")
 local ChatBypass10 =
     BypassTab:CreateButton(
     {
-        Name = "cock are the best diet!",
+        Name = "retard",
         Callback = function()
             local args = {
-    [1] = "соck are the best diet!",
+    [1] = "rétard",
     [2] = "All"
 }
 
