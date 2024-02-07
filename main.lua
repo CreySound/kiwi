@@ -8,7 +8,7 @@ elseif game.Players.LocalPlayer.Name == "DDdomistor7" then
    return
 end
 
-print("LOADED V1.3 P1")
+print("LOADED V1.3 P13005")
 
 
 local Window =
@@ -84,7 +84,7 @@ local F3XCOLOR = ScriptTab:CreateButton({
     [2] = BrickColor.new( math.random(1, 1000) )
 }
 
-game:GetService("Players").LocalPlayer:WaitForChild("ServerEndpoint"):InvokeServer(unpack(args))
+game:GetService("Players").LocalPlayer.Backpack.Folder.SyncAPI.ServerEndpoint:InvokeServer(unpack(args))
    end,
 })
 
