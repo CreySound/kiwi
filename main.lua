@@ -8,7 +8,7 @@ elseif game.Players.LocalPlayer.Name == "DDdomistor7" then
    return
 end
 
-print("LOADED V1.3 P6292")
+print("LOADED V1.3 P6292") --fuck
 
 
 local Window =
