@@ -14,7 +14,7 @@ print("LOADED V1.3 I14") --fuck v2
 local Window =
     Rayfield:CreateWindow(
     {
-        Name = "🔥 Project Kiwi 🥝 V1.3 P1",
+        Name = "🔥 Project Kiwi 🥝 V1.3 I14",
         LoadingTitle = "🥝 Admin House Kiwi 🥝",
         LoadingSubtitle = "by project_kiwii (creysound was here)",
         ConfigurationSaving = {
