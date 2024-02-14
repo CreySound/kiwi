@@ -1,45 +1,45 @@
 local Rayfield = loadstring(game:HttpGet("https://sirius.menu/rayfield"))()
 
 if game.Players.LocalPlayer.Name == "SuPraa006" then
-   return
+	return
 elseif game.Players.LocalPlayer.Name == "HaGoloYo" then
-   return
+	return
 elseif game.Players.LocalPlayer.Name == "DDdomistor7" then
-   return
+	return
 end
 
 print("LOADED V1.4 BETA") --fuck v2 fucker
 
 
 local Window =
-    Rayfield:CreateWindow(
-    {
-        Name = "🔥 Project Kiwi 🥝 V1.4 BETA",
-        LoadingTitle = "🥝 Admin House Kiwi 🥝",
-        LoadingSubtitle = "by project_kiwii (creysound was here)",
-        ConfigurationSaving = {
-            Enabled = true,
-            FolderName = true, -- Create a custom folder for your hub/game
-            FileName = "KIWI"
-        },
-        Discord = {
-            Enabled = true,
-            Invite = "yayzddgQWm", -- The Discord invite code
-            RememberJoins = true -- Set this to false to make them join the discord every time they load it up
-        },
-        KeySystem = true, -- Set this to true to use our key system
-        KeySettings = {
-            Title = "Key | Admin House 🥝",
-            Subtitle = "Key System 🔑",
-            Note = "Key In #script-key",
-            FileName = "Admin house 🥝 | Key System", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
-            SaveKey = true, -- The user's key will be saved, but if you change the key, they will be unable to use your script
-            GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
-            Key = {"🥝"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
-        }
-    }
-)
- --the motherfucker is gone
+	Rayfield:CreateWindow(
+		{
+			Name = "🔥 Project Kiwi 🥝 V1.4 BETA",
+			LoadingTitle = "🥝 Admin House Kiwi 🥝",
+			LoadingSubtitle = "by project_kiwii (creysound was here)",
+			ConfigurationSaving = {
+				Enabled = true,
+				FolderName = true, -- Create a custom folder for your hub/game
+				FileName = "KIWI"
+			},
+			Discord = {
+				Enabled = true,
+				Invite = "yayzddgQWm", -- The Discord invite code
+				RememberJoins = true -- Set this to false to make them join the discord every time they load it up
+			},
+			KeySystem = true, -- Set this to true to use our key system
+			KeySettings = {
+				Title = "Key | Admin House 🥝",
+				Subtitle = "Key System 🔑",
+				Note = "Key In #script-key",
+				FileName = "Admin house 🥝 | Key System", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
+				SaveKey = true, -- The user's key will be saved, but if you change the key, they will be unable to use your script
+				GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
+				Key = {"🥝"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
+			}
+		}
+	)
+--the motherfucker is gone
 --and that
 
 local MainTab = Window:CreateTab("🏠 Home 🏠", nil) -- Title, Image
@@ -48,173 +48,173 @@ local ScriptTab = Window:CreateTab("📜 Scripts 📜", nil) -- Title, Image
 local MainSection = MainTab:CreateSection("Main")
 
 local GetAdmin = MainTab:CreateButton(
-    {
-        Name = "Get Admin 🤑",
-        Callback = function()
-            local plrcframe = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
-            local cooldown = .1
-            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(13.7, 25.05, 106.492)
-            wait(cooldown)
-            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(9.7, 25.05, 106.492)
-            wait(cooldown)
-            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(5.7, 25.05, 106.492)
-            wait(cooldown)
-            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1.7, 25.05, 106.492)
-            wait(cooldown)
-            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2.3, 25.05, 106.492)
-            wait(cooldown)
-            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-6.3, 25.05, 106.492)
-            wait(cooldown)
-            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(10.3, 25.05, 106.492)
-            wait(cooldown)
-            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-14.3, 25.05, 106.492)
-            wait(cooldown)
-            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-18.3, 25.05, 106.492)
-            wait(cooldown)
-            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = plrcframe
-        end
-    }
+	{
+		Name = "Get Admin 🤑",
+		Callback = function()
+			local plrcframe = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+			local cooldown = .1
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(13.7, 25.05, 106.492)
+			wait(cooldown)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(9.7, 25.05, 106.492)
+			wait(cooldown)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(5.7, 25.05, 106.492)
+			wait(cooldown)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1.7, 25.05, 106.492)
+			wait(cooldown)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2.3, 25.05, 106.492)
+			wait(cooldown)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-6.3, 25.05, 106.492)
+			wait(cooldown)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(10.3, 25.05, 106.492)
+			wait(cooldown)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-14.3, 25.05, 106.492)
+			wait(cooldown)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-18.3, 25.05, 106.492)
+			wait(cooldown)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = plrcframe
+		end
+	}
 )
 
 local F3XCOLOR = ScriptTab:CreateButton({
-   Name = "Hacked Color F3X",
-   Callback = function()
-   local args = {
-    [1] = "RecolorHandle",
-    [2] = BrickColor.new( math.random(1, 1000) )
-}
+	Name = "Hacked Color F3X",
+	Callback = function()
+		local args = {
+			[1] = "RecolorHandle",
+			[2] = BrickColor.new( math.random(1, 1000) )
+		}
 
-game:GetService("Players").LocalPlayer.Backpack.Folder.SyncAPI.ServerEndpoint:InvokeServer(unpack(args))
-   end,
+		game:GetService("Players").LocalPlayer.Backpack.Folder.SyncAPI.ServerEndpoint:InvokeServer(unpack(args))
+	end,
 })
 
 local AntiCrash = ScriptTab:CreateButton(
-    {
-        Name = "Anti Crash (ONCE CLICKED WILL BE STUCK)",
-        Callback = function()
-            while wait() do
-            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(9999999, 9999999, 9999999)
-            local part = Instance.new("Part", workspace)
-            part.Anchored = true
-            part.CanCollide = false
-            part.Transparency = 1
-            part.CFrame = CFrame.new(999999,99999,99999)
-            workspace.CurrentCamera.CameraSubject = part
-            end
-        end
-    }
+	{
+		Name = "Anti Crash (ONCE CLICKED WILL BE STUCK)",
+		Callback = function()
+			while wait() do
+				game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(9999999, 9999999, 9999999)
+				local part = Instance.new("Part", workspace)
+				part.Anchored = true
+				part.CanCollide = false
+				part.Transparency = 1
+				part.CFrame = CFrame.new(999999,99999,99999)
+				workspace.CurrentCamera.CameraSubject = part
+			end
+		end
+	}
 )
 
 local Unview = MainTab:CreateButton({
-   Name = "Unview Camera (removes the forcecam)",
-   Callback = function()
-           workspace.CurrentCamera.CameraSubject = game.Players.LocalPlayer.Character
-   end,
+	Name = "Unview Camera (removes the forcecam)",
+	Callback = function()
+		workspace.CurrentCamera.CameraSubject = game.Players.LocalPlayer.Character
+	end,
 })
 
 local Antifview = ScriptTab:CreateButton({
-   Name = "Anti fview (no view crash)",
-   Callback = function()
-         loadstring(game:HttpGet("https://pastebin.com/raw/tmLnrPdb", true))()
-   end,
+	Name = "Anti fview (no view crash)",
+	Callback = function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/tmLnrPdb", true))()
+	end,
 })
 
 
 local Tphouse =
-    MainTab:CreateButton(
-    {
-        Name = "TpHouse",
-        Callback = function()
-            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(0, 24.3, 82.992)
-        end
-    }
-)
+	MainTab:CreateButton(
+		{
+			Name = "TpHouse",
+			Callback = function()
+				game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(0, 24.3, 82.992)
+			end
+		}
+	)
 
 local CrashButton = ScriptTab:CreateButton({
-   Name = "Crash Instant (must have f3x on you)",
-   Callback = function()
-         PartTable = {}
-game.Workspace.ChildAdded:Connect(function(v)
-    if v:IsA('Part') then
-        table.insert(PartTable,v)
-        print(v.Name)
-        end
-    end)
-for i = 1,3500 do
-local args = {
-    [1] = "CreatePart",
-    [2] = "Normal",
-    [3] = CFrame.new(Vector3.new(-112.61819458007812, 20.000003814697266, 80.5723876953125), Vector3.new(-0, -0, -1)),
-    [4] = workspace
-}
-task.spawn(function()
-game:GetService("Players").LocalPlayer.Backpack.Folder.SyncAPI.ServerEndpoint:InvokeServer(unpack(args))
-end)
-end
-wait(1)
-for i,v in pairs(PartTable) do
-   local args = {
-    [1] = "SyncAnchor",
-    [2] = {
-        [1] = {
-            ["Part"] = v,
-            ["Anchored"] = false
-        }
-    }
-}
-task.spawn(function()
-game:GetService("Players").LocalPlayer.Backpack.Folder.SyncAPI.ServerEndpoint:InvokeServer(unpack(args))
- end)
-end
-   end,
+	Name = "Crash Instant (must have f3x on you)",
+	Callback = function()
+		PartTable = {}
+		game.Workspace.ChildAdded:Connect(function(v)
+			if v:IsA('Part') then
+				table.insert(PartTable,v)
+				print(v.Name)
+			end
+		end)
+		for i = 1,3500 do
+			local args = {
+				[1] = "CreatePart",
+				[2] = "Normal",
+				[3] = CFrame.new(Vector3.new(-112.61819458007812, 20.000003814697266, 80.5723876953125), Vector3.new(-0, -0, -1)),
+				[4] = workspace
+			}
+			task.spawn(function()
+				game:GetService("Players").LocalPlayer.Backpack.Folder.SyncAPI.ServerEndpoint:InvokeServer(unpack(args))
+			end)
+		end
+		wait(1)
+		for i,v in pairs(PartTable) do
+			local args = {
+				[1] = "SyncAnchor",
+				[2] = {
+					[1] = {
+						["Part"] = v,
+						["Anchored"] = false
+					}
+				}
+			}
+			task.spawn(function()
+				game:GetService("Players").LocalPlayer.Backpack.Folder.SyncAPI.ServerEndpoint:InvokeServer(unpack(args))
+			end)
+		end
+	end,
 })
 
 local IY =
-    ScriptTab:CreateButton(
-    {
-        Name = "Infinite Yield (Disabled For Now)",
-        Callback = function()
-            --loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source", true))()
-        end
-    }
-)
+	ScriptTab:CreateButton(
+		{
+			Name = "Infinite Yield (Disabled For Now)",
+			Callback = function()
+				--loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source", true))()
+			end
+		}
+	)
 
 local Crosswoods =
-    ScriptTab:CreateButton(
-    {
-        Name = "Broken Moderation (makes everyone say things that catches roblox moderations attention)",
-        Callback = function()
-            function getNil(name, class)
-                for _, v in next, getnilinstances() do
-                    if v.ClassName == class and v.Name == name then
-                        return v
-                    end
-                end
-            end
+	ScriptTab:CreateButton(
+		{
+			Name = "Broken Moderation (makes everyone say things that catches roblox moderations attention)",
+			Callback = function()
+				function getNil(name, class)
+					for _, v in next, getnilinstances() do
+					if v.ClassName == class and v.Name == name then
+						return v
+					end
+				end
+				end
 
-            local args = {
-                [1] = {
-                    ["Received"] = 124,
-                    ["Loader"] = getNil("ClientMover", "LocalScript"),
-                    ["Sent"] = 30,
-                    ["Module"] = getNil("Client", "ModuleScript"),
-                    ["Mode"] = "Fire"
-                },
-                [2] = "\7'$\29\28-XwS' \25%\25",
-                [3] = ":talk all IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER "
-            }
+				local args = {
+					[1] = {
+						["Received"] = 124,
+						["Loader"] = getNil("ClientMover", "LocalScript"),
+						["Sent"] = 30,
+						["Module"] = getNil("Client", "ModuleScript"),
+						["Mode"] = "Fire"
+					},
+					[2] = "\7'$\29\28-XwS' \25%\25",
+					[3] = ":talk all IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER IM A CHILD MHOLESTER "
+				}
 
-            game:GetService("JointsService"):WaitForChild("3f4f216a6a2262"):FireServer(unpack(args))
-        end
-    }
-)
+				game:GetService("JointsService"):WaitForChild("3f4f216a6a2262"):FireServer(unpack(args))
+			end
+		}
+	)
 
 local Bypass = BypassTab:CreateInput({
-   Name = "Bypass Chat BETA",
-   PlaceholderText = "String",
-   RemoveTextAfterFocusLost = false,
-   Callback = function(Text)
-   local keywords = { "ass", "cum", "cock", "fuck", "asshole", "rape", "boobs", "titties", "sex", "hoe", "porn", "nigga", "penis", "beaner", "thot", "xxx", "hentai", "bitch", "bitches", "shit", "kys", "butthole", "masturbate", "big black cock", "blowjob", "bites your cock", "cock sucker", "fat ass hoe", "cum",         "discord"} --Keyword
+	Name = "Bypass Chat BETA",
+	PlaceholderText = "String",
+	RemoveTextAfterFocusLost = false,
+	Callback = function(Text)
+		local keywords = { "ass", "cum", "cock", "fuck", "asshole", "rape", "boobs", "titties", "sex", "hoe", "porn", "nigga", "penis", "beaner", "thot", "xxx", "hentai", "bitch", "bitches", "shit", "kys", "butthole", "masturbate", "big black cock", "blowjob", "bites your cock", "cock sucker", "fat ass hoe", "cum",         "discord"} --Keyword
 		local replace = { "а⁥⁥⁥⁥ѕѕ", "с⁥⁥⁥⁥um", "сосk", "fu𐌑𝖔 ͜ ͣ c𐌑ḳ", "аѕѕһоlе", "rаре", "Вoobs", "Тitties", "s⁥⁥⁥⁥⁥⁥ех", "һое", "рогn", "п⁥iɡ⁥ɡ⁥а", "реп⁥is", "bеаn⁥ег", "ТН⁥⁥⁥⁥⁥ОТ", "ΧΧΧ", "НЕΝТАӀ", "ВI⁥⁥⁥⁥⁥⁥TСН", "ВIT⁥⁥⁥⁥⁥⁥⁥СНEЅ", "ЅНIТ", "К⁥⁥⁥⁥⁥YЅ", "ВUТТ⁥⁥⁥⁥НOLЕ", "МАЅТURВАТЕ", "big black со⁥⁥⁥сk", "Вӏоwjob", "Віtеѕ уоur сосk", "сосk suсkеr", "f⁥аt а⁥ѕѕ һое", "с⁥⁥⁥⁥um", "D¡sсогd"} --Replace
 		local message = string.lower(Text)
 		for word in string.gmatch(message, "%S+") do
@@ -226,97 +226,90 @@ local Bypass = BypassTab:CreateInput({
 			game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(word, "All")
 			wait(0.1)
 		end
-    }
-) -- fixed that shit
+	end
+}) -- fixed that shit
 
 
 local ChatBypass =
-    BypassTab:CreateButton(
-    {
-        Name = "Fuck",
-        Callback = function()
-            local args = {
-    [1] = "Fück",
-    [2] = "All"
-}
+	BypassTab:CreateButton(
+		{
+			Name = "Fuck",
+			Callback = function()
+				local args = {
+					[1] = "Fück",
+					[2] = "All"
+				}
 
-game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(unpack(args))
+				game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(unpack(args))
 
 
-        end
-    }
-)
+			end
+		}
+	)
 
 local ChatBypass1 =
-    BypassTab:CreateButton(
-    {
-        Name = "porn",
-        Callback = function()
-            local args = {
-    [1] = "phorn",
-    [2] = "All"
-}
+	BypassTab:CreateButton(
+		{
+			Name = "porn",
+			Callback = function()
+				local args = {
+					[1] = "phorn",
+					[2] = "All"
+				}
 
-game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(unpack(args))
+				game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(unpack(args))
 
 
-        end
-    }
-)
+			end
+		}
+	)
 
 local ChatBypass3 =
-    BypassTab:CreateButton(
-    {
-        Name = "соck",
-        Callback = function()
-            local args = {
-    [1] = "соck",
-    [2] = "All"
-}
+	BypassTab:CreateButton(
+		{
+			Name = "соck",
+			Callback = function()
+				local args = {
+					[1] = "соck",
+					[2] = "All"
+				}
 
-game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(unpack(args))
+				game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(unpack(args))
 
 
-        end
-    }
-)
+			end
+		}
+	)
 local ChatBypass6 =
-    BypassTab:CreateButton(
-    {
-        Name = "femboy",
-        Callback = function()
-            local args = {
-    [1] = "fembоy",
-    [2] = "All"
-}
+	BypassTab:CreateButton(
+		{
+			Name = "femboy",
+			Callback = function()
+				local args = {
+					[1] = "fembоy",
+					[2] = "All"
+				}
 
-game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(unpack(args))
+				game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(unpack(args))
 
 
-        end
-    }
-)
+			end
+		}
+	)
 
 local ChatBypass10 =
-    BypassTab:CreateButton(
-    {
-        Name = "retard",
-        Callback = function()
-            local args = {
-    [1] = "rétard",
-    [2] = "All"
-}
+	BypassTab:CreateButton(
+		{
+			Name = "retard",
+			Callback = function()
+				local args = {
+					[1] = "rétard",
+					[2] = "All"
+				}
 
-game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(unpack(args))
-
-
-        end
-    }
-)
+				game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(unpack(args))
 
 
-
-
-
-
-
+			end
+		}
+	)
