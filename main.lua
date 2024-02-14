@@ -8,13 +8,13 @@ elseif game.Players.LocalPlayer.Name == "DDdomistor7" then
    return
 end
 
-print("LOADED V1.3 I15") --fuck v2 fucker
+print("LOADED V1.3 I16") --fuck v2 fucker
 
 
 local Window =
     Rayfield:CreateWindow(
     {
-        Name = "🔥 Project Kiwi 🥝 V1.3 I15",
+        Name = "🔥 Project Kiwi 🥝 V1.3 I16",
         LoadingTitle = "🥝 Admin House Kiwi 🥝",
         LoadingSubtitle = "by project_kiwii (creysound was here)",
         ConfigurationSaving = {
@@ -35,7 +35,7 @@ local Window =
             FileName = "Admin house 🥝 | Key System", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
             SaveKey = true, -- The user's key will be saved, but if you change the key, they will be unable to use your script
             GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
-            Key = {"slice the kiwi is crazy"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
+            Key = {"⏯ 😡 ⚡️ ⏬ 😀 📍 🏴 🈳 🚘 🗂 😛 🗽 🔞 🎪 🐯 🐫 🖼 🔇 🙇 ☹ 📳 😧 🍖 🔘 🚞 📐 🔎 👟 👨 🌀 🐊 🚳 ❇️ 🕍 🏟 🌎 👝 🍶 🚡 👌 🍱 🏠 ◀️ 🐤 ☁️ 🍤 🔕 🗡 🎮 💣 🏐 ✈️ 👽 🙎 🔐 🔘 🚞 🐉 💙 🈚️ 📑 😌 ⏭ ✳️ ♉️ ⛱ 🐍 🚯 🍪 👈 🦁 🚡 ❌ 🦂 ☯ 🕓 📩 📎 🗓 💈 📟 🖨 👞 🌅 🌎 🔝 🖋 ☢ 🍷 🏢 ⭐️ 🚺 🔊 💈 🚡 🕔 🚺 🚷 ⛸ 💨"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
         }
     }
 )
