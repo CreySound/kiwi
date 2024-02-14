@@ -8,13 +8,13 @@ elseif game.Players.LocalPlayer.Name == "DDdomistor7" then
    return
 end
 
-print("LOADED V1.3 I16") --fuck v2 fucker
+print("LOADED V1.4 BETA") --fuck v2 fucker
 
 
 local Window =
     Rayfield:CreateWindow(
     {
-        Name = "🔥 Project Kiwi 🥝 V1.3 I16",
+        Name = "🔥 Project Kiwi 🥝 V1.4 BETA",
         LoadingTitle = "🥝 Admin House Kiwi 🥝",
         LoadingSubtitle = "by project_kiwii (creysound was here)",
         ConfigurationSaving = {
@@ -35,7 +35,7 @@ local Window =
             FileName = "Admin house 🥝 | Key System", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
             SaveKey = true, -- The user's key will be saved, but if you change the key, they will be unable to use your script
             GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
-            Key = {"⏯ 😡 ⚡️ ⏬ 😀 📍 🏴 🈳 🚘 🗂 😛 🗽 🔞 🎪 🐯 🐫 🖼 🔇 🙇 ☹ 📳 😧 🍖 🔘 🚞 📐 🔎 👟 👨 🌀 🐊 🚳 ❇️ 🕍 🏟 🌎 👝 🍶 🚡 👌 🍱 🏠 ◀️ 🐤 ☁️ 🍤 🔕 🗡 🎮 💣 🏐 ✈️ 👽 🙎 🔐 🔘 🚞 🐉 💙 🈚️ 📑 😌 ⏭ ✳️ ♉️ ⛱ 🐍 🚯 🍪 👈 🦁 🚡 ❌ 🦂 ☯ 🕓 📩 📎 🗓 💈 📟 🖨 👞 🌅 🌎 🔝 🖋 ☢ 🍷 🏢 ⭐️ 🚺 🔊 💈 🚡 🕔 🚺 🚷 ⛸ 💨"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
+            Key = {"🥝"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
         }
     }
 )
@@ -214,14 +214,18 @@ local Bypass = BypassTab:CreateInput({
    PlaceholderText = "String",
    RemoveTextAfterFocusLost = false,
    Callback = function(Text)
-         local args = {
-    [1] = Text,
-    [2] = "All"
-}
-
-game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(unpack(args))
-
-      end
+   local keywords = { "ass", "cum", "cock", "fuck", "asshole", "rape", "boobs", "titties", "sex", "hoe", "porn", "nigga", "penis", "beaner", "thot", "xxx", "hentai", "bitch", "bitches", "shit", "kys", "butthole", "masturbate", "big black cock", "blowjob", "bites your cock", "cock sucker", "fat ass hoe", "cum",         "discord"} --Keyword
+		local replace = { "а⁥⁥⁥⁥ѕѕ", "с⁥⁥⁥⁥um", "сосk", "fu𐌑𝖔 ͜ ͣ c𐌑ḳ", "аѕѕһоlе", "rаре", "Вoobs", "Тitties", "s⁥⁥⁥⁥⁥⁥ех", "һое", "рогn", "п⁥iɡ⁥ɡ⁥а", "реп⁥is", "bеаn⁥ег", "ТН⁥⁥⁥⁥⁥ОТ", "ΧΧΧ", "НЕΝТАӀ", "ВI⁥⁥⁥⁥⁥⁥TСН", "ВIT⁥⁥⁥⁥⁥⁥⁥СНEЅ", "ЅНIТ", "К⁥⁥⁥⁥⁥YЅ", "ВUТТ⁥⁥⁥⁥НOLЕ", "МАЅТURВАТЕ", "big black со⁥⁥⁥сk", "Вӏоwjob", "Віtеѕ уоur сосk", "сосk suсkеr", "f⁥аt а⁥ѕѕ һое", "с⁥⁥⁥⁥um", "D¡sсогd"} --Replace
+		local message = string.lower(Text)
+		for word in string.gmatch(message, "%S+") do
+			for i, key in ipairs(keywords) do
+				if word == string.lower(key) then
+					word = replace[i]
+				end
+			end
+			game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(word, "All")
+			wait(0.1)
+		end
     }
 ) -- fixed that shit
 
